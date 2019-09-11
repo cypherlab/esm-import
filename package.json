@@ -1,0 +1,37 @@
+{
+  "name": "@cypherlab/esm-import",
+  "version": "0.0.1",
+  "description": "🔧 ESM import utility",
+  "author": "Louis Grellet <louis.grellet@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/cypherlab/esm-import",
+  "source": "src/index.js",
+  "module": "src/index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx rollup -c",
+    "prepare": "npm run build",
+    "release": "np"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "rollup": "^1.20.3",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-livereload": "^1.0.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-terser": "^5.1.1"
+  }
+}
