@@ -1,5 +1,4 @@
 
-
 export default async (paths=[], debug=false) => {
   let first
 

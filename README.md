@@ -1,7 +1,7 @@
 # `@cypherlab/esm-import`
 
 
-Advanced Table 
+🔧 ESM import utility
 
 <a href="https://www.npmjs.com/package/@cypherlab/esm-import">
   <img alt="npm" src="https://img.shields.io/npm/v/@cypherlab/esm-import">
