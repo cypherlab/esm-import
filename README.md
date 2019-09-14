@@ -17,7 +17,7 @@ npm i @cypherlab/esm-import
 
 ```js
 <script async type="module">
-  const esmImport = (await import('https://unpkg.com/@cypherlab/esm-import')).default 
+  import esmImport from 'https://unpkg.com/@cypherlab/esm-import'
 
   const MyComponent = await esmImport([
       '/dist/index.js' // local import
