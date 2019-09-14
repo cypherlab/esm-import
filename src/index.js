@@ -1,16 +1,18 @@
+const log = console.log
 
 export default async (paths=[], debug=false) => {
   let first
 
   for (const p of paths) {
+    let status = `import "${p}"`
     try { 
       first = (await import(p)).default 
-      debug && console.log(`$import via "${p}"`)
+      debug && log(`${status} - ok`)
       break
-    }catch(e){}
+    }catch(e){ 
+      debug && log(`${status} - failed`)
+    }    
   }
 
-  !first && debug && console.log(`$import failed"`)
-  
   return first
 }
