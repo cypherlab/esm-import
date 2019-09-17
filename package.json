@@ -1,6 +1,6 @@
 {
   "name": "@cypherlab/esm-import",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "🔧 ESM import utility",
   "author": "Louis Grellet <louis.grellet@gmail.com>",
   "license": "ISC",
