@@ -1,3 +1,5 @@
+[DEPRECATED] check https://github.com/cypherlab/import
+
 # `@cypherlab/esm-import`
 
 
